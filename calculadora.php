@@ -74,8 +74,8 @@
     <div class="calculator">
         <h2>CALCULADORA</h2>
         <form name="calcForm" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>" onsubmit="return validateForm()">
-            <input type="text" name="num1" placeholder="Valor 1" required value="<?php echo isset($_POST['num1']) ? htmlspecialchars($_POST['num1']) : ''; ?>"><br>
-            <input type="text" name="num2" placeholder="Valor 2" required value="<?php echo isset($_POST['num2']) ? htmlspecialchars($_POST['num2']) : ''; ?>"><br>
+            <input type="text" name="num1" placeholder="Valor 1" required ><br>
+            <input type="text" name="num2" placeholder="Valor 2" required ><br>
             <input type="submit" name="sumar" value="Sumar">
             <input type="submit" name="restar" value="Restar"><br>
             <input type="submit" name="multiplicar" value="Multiplicar">
