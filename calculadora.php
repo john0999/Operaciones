@@ -78,8 +78,6 @@
             <input type="text" name="num2" placeholder="Valor 2" required ><br>
             <input type="submit" name="sumar" value="Sumar">
             <input type="submit" name="restar" value="Restar"><br>
-            <input type="submit" name="multiplicar" value="Multiplicar">
-            <input type="submit" name="dividir" value="Dividir">
         </form>
         <div class="result">
             <?php
