@@ -94,16 +94,6 @@
                     } elseif (isset($_POST['restar'])) {
                         $resultado = $num1 - $num2;
                         echo "El resultado de la resta es: " . $resultado;
-                    } elseif (isset($_POST['multiplicar'])) {
-                        $resultado = $num1 * $num2;
-                        echo "El resultado de la multiplicación es: " . $resultado;
-                    } elseif (isset($_POST['dividir'])) {
-                        if ($num2 != 0) {
-                            $resultado = $num1 / $num2;
-                            echo "El resultado de la división es: " . $resultado;
-                        } else {
-                            echo "No se puede dividir entre cero";
-                        }
                     }
                 }
             }
